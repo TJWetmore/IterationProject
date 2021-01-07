@@ -21,7 +21,7 @@ const Main = ({ email, logOut, userId }) => {
 		setSpinner(true);
 	};
 
-	//get all products from db
+	//get all products from db that have been saved before
 	const getAllProducts = () => {
 		fetch(`/api/products/${userId}`, {
 			method: 'GET',

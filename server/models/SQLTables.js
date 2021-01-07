@@ -7,7 +7,7 @@ const productsTable = `
     _id SERIAL,
     product_name VARCHAR NOT NULL,
     image_url VARCHAR NOT NULL,
-    google_url VARCHAR UNIQUE
+    google_url VARCHAR UNIQUE,
     PRIMARY KEY (_id)
   )`;
 
